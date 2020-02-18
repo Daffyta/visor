@@ -32,3 +32,15 @@
 .tab-pane>.form-control {
   width: 75% !important;
 }
+
+/* Tabla */
+
+.table-striped {
+  border: 1px solid #eee;
+  margin: 3% auto;
+}
+
+thead {
+  color: #fff;
+  background-color: #175d8d;
+}
