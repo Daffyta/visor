@@ -1,0 +1,34 @@
+.nav-link {
+  border: none !important;
+  border-radius: 0 !important;
+  color: #fff;
+  width: 50%;
+  background-color: #175d8d !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  font-family: "Poppins";
+}
+
+.nav-link.active {
+  color: #46c9d7 !important;
+  width: 50%;
+  background-color: #175d8d !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  border-bottom: 3px solid #46c9d7 !important;
+  font-weight: bolder;
+  font-family: "Poppins";
+}
+
+.tab-content>.active {
+  background-color: #fff;
+  padding: 4%;
+}
+
+.tab-pane>.form-control {
+  width: 75% !important;
+}
